@@ -8,12 +8,20 @@ body, html{
 	margin: 0;
 	padding: 0;
 }
+#fon{
+	position: absolute;
+	height: 1330px;
+	width: 1348px;
+	left: 50%;
+	margin-right: 674px;
+	background-color: #FFFFCC;
+}
 #one{
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	height: 100px;
-	width: 1328px;
+	width: 1348px;
 	background-color: #FFFF00;
 }
 #minions{
@@ -33,7 +41,7 @@ body, html{
 #two{
 	position: absolute;
 	top: 120px;
-	left: 10px;
+	left: 20px;
 	height: 434px;
 	width: 334px;
 	background: rgba(0, 0, 0, 0.1); 
@@ -76,13 +84,13 @@ body, html{
 #three{
 	position: absolute;
 	top: 120px;
-	left: 364px;
+	left: 374px;
 	width: 600px;
 }
 #four{
 	position: absolute;
 	top: 120px;
-	left: 984px;
+	left: 994px;
 	height: 434px;
 	width: 334px;
 	background: rgba(0, 0, 0, 0.1); 
@@ -170,16 +178,17 @@ body, html{
 #plakat{
 	position: absolute;
 	top: 574px;
-	left: 10px;
+	left: 20px;
 }
 #fotozona{
 	position: absolute;
 	top: 574px;
-	left: 984px;
+	left: 994px;
 }
 </style>
 </head>
 <body>
+<div id = "fon">
 <a href = "bigplakat.jpg" id = "plakat"><img href = "bigplakat.jpg" src = "smallplakat.jpg"></a>
 <a href = "bigfotozona.jpg" id = "fotozona"><img href = "bigfotozona.jpg" src = "smallfotozona.jpg"></a>
 <div id = "one">
@@ -247,6 +256,7 @@ body, html{
 <div id = "four">
 	<a href = "https://docs.google.com/forms/d/e/1FAIpQLScw7J5CFsOc__BNFWLqKT1ST89isoy7oesUOSLQduYK05-3wQ/viewform?usp=sf_link" id = "opros">Вы можете пройти гугл-форму, чтобы увековечить себя на нашем сайте!</a>
 	<p id = "spisok">Список участвовавших:</p>
+</div>
 </div>
 <script>
 const mediaQuery = window.matchMedia('(min-width: 768px)');
