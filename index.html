@@ -18,15 +18,16 @@ body, html{
 }
 #minions{
 	position: absolute;
-	font-size: 60px;
-	margin-top: 3px;
+	font-size: 63px;
+	margin-top: 5px;
+	margin-left: 5px;
 	font-family: Verdana;
 }
 #information{
 	position: absolute;
-	font-size: 20px;
-	bottom: 3px;
-	right: 3px;
+	font-size: 23px;
+	bottom: 5px;
+	right: 5px;
 	font-style: italic;
 }
 #two{
@@ -51,24 +52,24 @@ body, html{
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	font-size: 12px;
+	font-size: 13px;
 }
 #vk{
 	position: absolute;
 	top: 50px;
 	left: 10px;
-	font-size: 12px;
+	font-size: 13px;
 }
 #sait{
 	position: absolute;
 	top: 90px;
 	left: 10px;
-	font-size: 12px;
+	font-size: 13px;
 }
 #golos{
 	position: absolute;
-	top: 100px;
-	left: 3px;
+	top: 110px;
+	left: 5px;
 	font-size: 27px;
 	font-weight: bold;
 }
@@ -89,20 +90,20 @@ body, html{
 #opros{
 	position: absolute;
 	top: 10px;
-	left: 10px;
+	left: 5px;
 	font-size: 16px;
 }
 #spisok{
 	position: absolute;
 	top: 40px;
-	left: 10px;
+	left: 5px;
 	font-size: 16px;
 }
 #roli{
 	position: absolute;
 	top: 330px;
 	width: 600px;
-	height: 920px;
+	height: 900px;
 	background: rgba(0, 0, 0, 0.1); 
 }
 #man{
@@ -127,8 +128,9 @@ body, html{
 }
 #rolitext{
 	position: absolute;
+	top: 15px;
 	left: 1px;
-	font-size: 12px;
+	font-size: 13px;
 }
 #textroli{
 	position: absolute;
@@ -139,26 +141,24 @@ body, html{
 #rolic{
 	position: absolute;
 	width: 600px;
-	height: 300px;
+	height: 290px;
 	background: rgba(0, 0, 0, 0.1); 
 }
 #video{
 	position: absolute;
-	top: 3%;
-	left: 1%;
+	top: 20px;
+	left: 5px;
 	width: 400px;
 	height: 225px;
 }
 #rolictext{
 	position: absolute;
-	top: 3px;
-	right: 3px;
-	font-size: 12px;
+	font-size: 13px;
 }
 #textrolic{
 	position: absolute;
-	top: 1%;
-	right: 1%;
+	top: 0px;
+	right: 3px;
 	width: 30%;
 }
 #vidos{
@@ -166,10 +166,7 @@ body, html{
 	bottom: 5%;
 	margin-left: 20%;
 	margin-right: 20%;
-	font-size: 12px;
-}
-#mentorimg{
-	height: 100%;
+	font-size: 14px;
 }
 </style>
 </head>
@@ -241,7 +238,7 @@ body, html{
 	<p id = "spisok">Список участвовавших:</p>
 </div>
 <script>
-const mediaQuery = window.matchMedia('(min-width: 600px)');
+const mediaQuery = window.matchMedia('(min-width: 768px)');
 
 if (mediaQuery.matches) {
 	document.getElementById('minions').style.fontSize = "70px";
@@ -252,7 +249,7 @@ if (mediaQuery.matches) {
 	document.getElementById('golos').style.fontSize = "33px";
 	document.getElementById('opros').style.fontSize = "20px";
 	document.getElementById('spisok').style.fontSize = "20px";
-	document.getElementById('rolitext').style.fontSize = "16px";
+	document.getElementById('rolitext').style.fontSize = "15px";
 	document.getElementById('rolictext').style.fontSize = "16px";
 	document.getElementById('vidos').style.fontSize = "16px";
 }
