@@ -10,23 +10,23 @@ body, html{
 }
 #one{
 	position: absolute;
-	top: 0.1px;
-	left: 0.1px;
+	top: 0px;
+	left: 0px;
 	height: 100px;
 	width: 1328px;
 	background-color: #FFFF00;
 }
 #minions{
 	position: absolute;
-	font-size: 63px;
-	margin-top: 1px;
+	font-size: 67px;
+	margin-top: 0px;
 	margin-left: 10px;
 	font-family: Verdana;
 }
 #information{
 	position: absolute;
 	font-size: 23px;
-	bottom: 1px;
+	bottom: 0px;
 	right: 10px;
 	font-style: italic;
 }
@@ -239,9 +239,8 @@ body, html{
 </div>
 <script>
 const mediaQuery = window.matchMedia('(min-width: 768px)');
-
 if (mediaQuery.matches) {
-	document.getElementById('minions').style.fontSize = "70px";
+	document.getElementById('minions').style.fontSize = "75px";
 	document.getElementById('information').style.fontSize = "25px";
 	document.getElementById('tgk').style.fontSize = "16px";
 	document.getElementById('vk').style.fontSize = "16px";
